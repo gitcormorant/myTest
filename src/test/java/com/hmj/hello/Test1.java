@@ -21,7 +21,7 @@ public class Test1  {
 
     public static void main(String[] args) {
         String s1 = "Hello123";
-        String s2 = "Hello222";
+        String s2 = "Hello222444";
         System.out.println(s1==s2);
     }
 }
