@@ -6,4 +6,12 @@ package com.hmj.hello;
  */
 public class Test3 {
     //1234
+
+    public static void main(String[] args) {
+        User user=new User();
+        user.setGender(Gender.MAN);
+
+
+    }
+
 }

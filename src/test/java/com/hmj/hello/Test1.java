@@ -19,9 +19,13 @@ import java.util.concurrent.ThreadPoolExecutor;
 public class Test1  {
 
 
+    public static int sq(int y){
+        return y*y;
+    }
+
     public static void main(String[] args) {
-        String s1 = "Hello123";
-        String s2 = "Hello222444";
-        System.out.println(s1==s2);
+       int a=3,sq;
+       sq=sq(a+1);
+        System.out.println("sq="+sq);
     }
 }
